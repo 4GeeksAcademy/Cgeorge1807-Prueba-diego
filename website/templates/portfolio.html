@@ -1,2 +1,84 @@
 <!-- your html code here -->
-<p>Hello, I'm the portfolio.html</p>
+<div class="portfolio">
+    <h1>Portfolio</h1>
+    <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+       semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+       tellus ac cursus commodo.</p>
+    <div class="projects">
+        <div class="project">
+            <div class="image-placeholder">700×400</div>
+            <h2>Project Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+               gravida pellentesque urna varius vitae.</p>
+        </div>
+        <div class="project">
+            <div class="image-placeholder">700×400</div>
+            <h2>Project Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+               gravida pellentesque urna varius vitae.</p>
+        </div>
+        <div class="project">
+            <div class="image-placeholder">700×400</div>
+            <h2>Project Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+               gravida pellentesque urna varius vitae.</p>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* ===Portfolio=== */
+
+
+.portfolio {
+    background-color: white;
+    max-width: auto;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.portfolio p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    max-width: 300px;
+    text-align: center;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.project h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+}
+
+.project p {
+    color: #666;
+    font-size: 0.9em;
+}
+</style>
